@@ -1,0 +1,47 @@
+.sign_up{
+    display: flex;
+    gap: 100px;
+    justify-content: center; /* Center items vertically */
+    align-items: center;/* Center items horizontally*/
+    height: 100vh; /* Adjust as needed */
+}
+.form_section{
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.form_section input {
+    height: 30px;
+    padding-left: 5px;
+    width: 80%;
+    margin: 10px;
+    text-decoration: none;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+.text_part{
+    display: flex;
+    justify-content: space-between;
+    top: center;
+}
+.heading{
+margin-left: 30px;
+color:#3A244A ;
+}
+.singin_text {
+    margin-right: 15px;
+    margin-top: 10px;}
+span{
+    color: red;
+}
+.btn{
+    background-color: #3A244A;
+    color: white;
+    width: 80%;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
